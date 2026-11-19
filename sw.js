@@ -1,6 +1,6 @@
 // Service worker do Analor: guarda o app no aparelho para abrir sem internet depois da primeira visita.
 // Ao publicar uma versão nova, troque o número em CACHE (acompanha src/versao.ts).
-const CACHE = "analor-v0.4.0";
+const CACHE = "analor-v0.4.1";
 const API = "analor-api";
 
 self.addEventListener("install", (e) => {
